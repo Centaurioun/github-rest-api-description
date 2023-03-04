@@ -10,7 +10,9 @@
     "lint": "eslint descriptions/**/*.json --ext .json"
   },
   "eslintConfig": {
-    "extends": ["plugin:json/recommended"]
+    "extends": [
+      "plugin:json/recommended"
+    ]
   },
   "devDependencies": {
     "eslint": "^8.34.0",
